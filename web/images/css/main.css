@@ -899,11 +899,7 @@ h2.title {
   transition: height 500ms ease 0s;
   width: 100%;
   display: block;
-<<<<<<< HEAD
-  opacity: ;
-=======
   opacity:0;
->>>>>>> cf16d13e0cac1e8601c1d8d77466d9851a890071
 }
 
 .single-products:hover .product-overlay {
