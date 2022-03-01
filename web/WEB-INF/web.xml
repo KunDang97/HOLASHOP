@@ -15,8 +15,32 @@
         <url-pattern>/list</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ProductDetailController1</servlet-name>
+        <servlet-name>ProductDetailController</servlet-name>
         <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserDao</servlet-name>
+        <servlet-class>dao.UserDao</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>User</servlet-name>
+        <servlet-class>entity.User</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBContext</servlet-name>
+        <servlet-class>DBContext.DBContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDao</servlet-name>
+        <url-pattern>/UserDao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>User</servlet-name>
+        <url-pattern>/User</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBContext</servlet-name>
+        <url-pattern>/DBContext</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
